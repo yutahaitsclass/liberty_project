@@ -1,0 +1,119 @@
+header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  header .header-logo {
+    flex-basis: 150px; }
+    header .header-logo img {
+      width: 120px;
+      height: auto; }
+  header .topic-list {
+    flex-basis: 700px;
+    margin-top: 30px; }
+    header .topic-list ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between; }
+      header .topic-list ul li a {
+        color: #a88d49;
+        text-decoration: none;
+        text-align: center; }
+  header .preserve {
+    flex-basis: 150px;
+    padding: 13px 3%; }
+    header .preserve input {
+      width: 120px;
+      height: 50px;
+      background-color: #cea540;
+      font-size: 16px;
+      color: white;
+      border: none; }
+
+main .top-image {
+  background: url("image/top.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+main .wrapper {
+  color: #a88d49; }
+  main .wrapper .news-section {
+    background-color: #f7fdfd;
+    padding-bottom: 30px;
+    padding-top: 40px; }
+    main .wrapper .news-section .news-content {
+      padding: 50px 30%; }
+    main .wrapper .news-section h2,
+    main .wrapper .news-section .subtitle {
+      text-align: center; }
+  main .wrapper .store-section {
+    padding-bottom: 30px;
+    padding-top: 40px; }
+    main .wrapper .store-section .store-content {
+      padding: 50px 30%; }
+    main .wrapper .store-section h2,
+    main .wrapper .store-section .subtitle {
+      text-align: center; }
+  main .wrapper .menu-section {
+    background-color: #f7fdfd;
+    padding-top: 40px; }
+    main .wrapper .menu-section h2, main .wrapper .menu-section h3,
+    main .wrapper .menu-section .subtitle {
+      text-align: center; }
+    main .wrapper .menu-section h3 {
+      font-size: 25px;
+      margin-bottom: 30px;
+      margin-top: 20px; }
+    main .wrapper .menu-section .menu-content {
+      padding: 40px 5%;
+      display: flex;
+      justify-content: space-around; }
+      @media (max-width: 1024px) {
+        main .wrapper .menu-section .menu-content {
+          flex-direction: row; } }
+      @media (max-width: 480px) {
+        main .wrapper .menu-section .menu-content {
+          flex-direction: column; } }
+      main .wrapper .menu-section .menu-content .menu-content1,
+      main .wrapper .menu-section .menu-content .menu-content2,
+      main .wrapper .menu-section .menu-content .menu-content3 {
+        padding: 10px 10px;
+        margin-bottom: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; }
+        main .wrapper .menu-section .menu-content .menu-content1 .menu-image,
+        main .wrapper .menu-section .menu-content .menu-content2 .menu-image,
+        main .wrapper .menu-section .menu-content .menu-content3 .menu-image {
+          flex-basis: 40%;
+          padding-top: 20px; }
+        main .wrapper .menu-section .menu-content .menu-content1 .menu-text,
+        main .wrapper .menu-section .menu-content .menu-content2 .menu-text,
+        main .wrapper .menu-section .menu-content .menu-content3 .menu-text {
+          padding: 0 20px;
+          flex-basis: 60%;
+          text-align: center; }
+  main .wrapper .instagram-section {
+    padding-top: 40px; }
+    main .wrapper .instagram-section h2,
+    main .wrapper .instagram-section .subtitle {
+      text-align: center; }
+    main .wrapper .instagram-section .instagram-content {
+      margin-left: 4%;
+      padding: 40px 0; }
+
+footer .footer-wrapper {
+  padding: 30px 10%;
+  background-color: #f7fdfd;
+  color: #a88d49;
+  text-align: center; }
+  footer .footer-wrapper ul {
+    list-style: none; }
+  footer .footer-wrapper h2 {
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
