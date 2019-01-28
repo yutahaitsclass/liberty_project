@@ -5,7 +5,6 @@ header {
   background-color: white;
   display: flex;
   width: 100%;
-  opacity: 0.9;
   justify-content: space-between;
   z-index: 1; }
   header .header-logo {
@@ -39,7 +38,7 @@ main .top-image {
   background: url("image/top.jpeg");
   background-position: center;
   background-size: cover;
-  height: 500px; }
+  height: 300px; }
 main .wrapper {
   color: #a88d49; }
   main .wrapper .news-section {
