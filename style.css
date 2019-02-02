@@ -82,7 +82,7 @@ main {
       padding-bottom: 30px;
       padding-top: 40px; }
       main .wrapper .store-section .store-content .store-content_text {
-        padding: 50px 0; }
+        margin: 40px auto; }
         @media (max-width: 1920px) {
           main .wrapper .store-section .store-content .store-content_text {
             width: 40%; } }
